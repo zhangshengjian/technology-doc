@@ -3,8 +3,9 @@
 ### 基础知识
 
 - [Java](basic-knowledge/java.md)
-- [Design Pattern]()
 - [Log]()
+- [Design Pattern]()
+- [Algorithm]()
 
 ### 框架
 

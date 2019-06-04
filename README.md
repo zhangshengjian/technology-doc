@@ -2,7 +2,7 @@
 
 ### 基础知识
 
-- [Java](basic-knowledge/java.md)
+- [Java](01_basic-knowledge/java.md)
 - [Log]()
 - [Design Pattern]()
 - [Algorithm]()

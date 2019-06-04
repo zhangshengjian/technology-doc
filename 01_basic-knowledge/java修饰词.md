@@ -20,7 +20,8 @@ volatile 是 java 最轻量级的同步机制。
 
     三、尤其关键的是，当一个线程访问 object 的一个 synchronized(this) 同步代码块时，其他线程对 object 中所有其它
     synchronized(this) 同步代码块的访问将被阻塞。
-- 同步方法
+- 同步块
 ```
 public synchronized void method(int i);
 ```
+每个类实例对应一把锁，类的两个实例没有这个限制。类实例中所有的 synchronized 方法共用这一把锁，锁的范围有点大。
